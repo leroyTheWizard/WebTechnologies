@@ -1,0 +1,80 @@
+@import "satoshi.css"; 
+
+html {
+    font-size: 10px;
+}
+
+* {
+    font-family: 'Satoshi-Variable';
+    font-size: 1.6rem; 
+}
+
+
+.wrapper {
+    margin: 2rem;
+    padding-bottom: 3rem;
+}
+
+.description {
+    width: 50%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4.8rem;
+    line-height: 133%;
+}
+
+header {
+    border: solid;
+    border-color: black;
+    border-radius: 2rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+nav {
+    height: 100%;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+li {
+    padding: 1.2rem;
+}
+
+section{
+    margin: 4.8rem 0rem;
+}
+section *{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+header img{
+    height: 40px;
+    width: auto;
+}
+
+section img{
+    height: auto;
+    width: 20%;
+    display: inline;
+    padding-right: rem;
+}

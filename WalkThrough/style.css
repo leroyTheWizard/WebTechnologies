@@ -1,0 +1,22 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font: bolder;
+    color: rgb(111, 203, 192);
+}
+
+p{
+    padding-top: 10px;
+    font-family: monospace;
+    color: blue;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-box{
+    display: grid; 
+}
