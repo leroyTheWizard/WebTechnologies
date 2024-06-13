@@ -12,7 +12,22 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div data-js="tracks"></div>
+    <div class="container">
+      <div>
+        <input
+          type="text"
+          id="albumLinkInput"
+          placeholder="Enter Spotify album link"
+        />
+        <button id="loadAlbumButton">Load Album</button>
+      </div>
+
+      <div class="player">
+        <div class="album-cover"></div>
+      </div>
+
+      <div data-js="tracks"></div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
