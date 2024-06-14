@@ -61,17 +61,6 @@ body {
 }
 
 .album-cover.rotate {
-  width: 428px;
-  height: 428px;
-  margin-top: 63px;
-  margin-left: 24px;
-  gap: 0px;
-  opacity: 0px;
-  overflow: clip;
-
-  border-radius: 428px;
-  mix-blend-mode: hard-light;
-
   animation-play-state: running;
 }
 
@@ -228,4 +217,36 @@ li.clicked {
 
 li.clicked .track-length {
   color: #d7d7d7;
+}
+
+.shadow {
+  width: 558px;
+  height: 102px;
+  flex-shrink: 0;
+  margin-top: 240px;
+  margin-left: -40px;
+
+  border-radius: 558px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(3, 3, 3, 0.2) 0%,
+    rgba(3, 3, 3, 0) 100%
+  );
+  mix-blend-mode: darken;
+}
+
+.shadowsml {
+  width: 380px;
+  height: 54px;
+  flex-shrink: 0;
+  margin-top: -75px;
+  margin-left: 460px;
+
+  border-radius: 380px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(3, 3, 3, 0.05) 0%,
+    rgba(3, 3, 3, 0) 100%
+  );
+  mix-blend-mode: darken;
 }
